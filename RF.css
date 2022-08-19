@@ -1,0 +1,28 @@
+:root {
+    --dark: #800000;
+    --darker: #FF0000;
+    --darkest: #FFA500;
+    --grey: #FFFF00;
+    --pink: #808000;
+    --purple: #808080;
+    --light: #800080;
+    --blue: #FF00FF;
+    --mintcream: #FFFFFF;
+    --ghostwhite: #008080;
+    --nardo: #00FFFF;
+} 
+body {
+    display: flex;
+    flex-direction: column ;
+    min-height: 300vh;
+    background-color: var(--purple);
+}
+table{
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--mintcream);
+}
+#show th,#show td{
+    padding: 13px;
+    color: var(--darkest);
+}
